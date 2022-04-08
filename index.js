@@ -5,6 +5,7 @@ const app = express();
 const path = require('path')
 const requests = require('requests')
 
+// Important for heroku deployment
 const port = process.env.PORT || 3000;
 
 app.set('view engine', 'hbs');
